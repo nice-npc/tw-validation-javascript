@@ -1,4 +1,4 @@
-function validateInternationalPhoneNumber(phoneNumber) {
+export function validateInternationalPhoneNumber(phoneNumber) {
     // 定義不同國家的電話號碼格式
     const patterns = [
         // { country: '美國', regex: /^\+1\d{10}$/ }, // 美國號碼格式：+1後接10位數字

@@ -1,4 +1,4 @@
-function validateIDNumber(idNumber) {
+export function validateIDNumber(idNumber) {
     // 驗證身分證號碼格式
     const formatRegex = /^[A-Z][12]\d{8}$/;
     if (!formatRegex.test(idNumber)) {
