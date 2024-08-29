@@ -17,9 +17,3 @@ export function validateInternationalPhoneNumber(phoneNumber) {
     console.log('號碼無效');
     return false;
 }
-
-// 測試函數
-validateInternationalPhoneNumber('+12025550111'); // 美國號碼測試
-validateInternationalPhoneNumber('+441632960961'); // 英國號碼測試
-validateInternationalPhoneNumber('+886912345678'); // 台灣號碼測試
-validateInternationalPhoneNumber('+886138123456'); // 中國號碼測試（假設為無效格式）

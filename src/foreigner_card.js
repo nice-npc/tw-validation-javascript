@@ -27,7 +27,3 @@ function validateSIN(sin) {
     // 檢查總和是否能被10整除
     return (sum % 10) === 0;
 }
-
-// 測試範例
-console.log(validateSIN("046454286")); // true
-console.log(validateSIN("329 123 517")); // false

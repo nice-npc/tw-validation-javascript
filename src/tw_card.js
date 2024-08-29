@@ -25,9 +25,3 @@ export function validateIDNumber(idNumber) {
         return false;
     }
 }
-
-// 測試函數
-console.log(validateIDNumber("A159357695")); //true
-console.log(validateIDNumber("B111111111")); //false
-console.log(validateIDNumber("R998151877")); //false
-console.log(validateIDNumber("R1891899999")); //false
